@@ -35,11 +35,3 @@ FROM table_name;
 - Ví dụ:
 
 ![1706438358041](image/sql-select/1706438358041.png)
-
-- Để hiển thị số lượng giá trị khác nhau, ta dùng **COUNT()**
-
-```sql
-SELECT COUNT(DISTINCT column1, column2,...) FROM table_name;
-```
-
-![1706439825459](image/sql-select/1706439825459.png)

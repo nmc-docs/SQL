@@ -1,6 +1,6 @@
 {
-  "label": "MySQL SELECT",
-  "position": 7,
+  "label": "MySQL JOIN",
+  "position": 3,
   "link": {
     "type": "generated-index"
   }
