@@ -19,3 +19,5 @@ SELECT * FROM Customers LIMIT 3 OFFSET 3;
 ```
 
 ![1707322383071](image/sql-limit/1707322383071.png)
+
+abc
