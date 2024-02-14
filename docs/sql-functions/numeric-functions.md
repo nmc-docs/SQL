@@ -143,3 +143,35 @@ SQRT(number)
 SQRT(23)
 -- Return value: 4.795831523312719
 ```
+
+## GREATEST
+
+- Cú pháp:
+
+```sql
+-- Trả về giá trị lớn nhất trong danh sách các số
+GREATEST(number1, number2,...)
+```
+
+- Ví dụ:
+
+```sql
+GREATEST(3, 12, 34, 8, 25);
+-- Return value: 34
+```
+
+## LEAST
+
+- Cú pháp:
+
+```sql
+-- Trả về giá trị nhỏ nhất trong danh sách các số
+LEAST(number1, number2,...)
+```
+
+- Ví dụ:
+
+```sql
+LEAST(3, 12, 34, 8, 25);
+-- Return value: 3
+```

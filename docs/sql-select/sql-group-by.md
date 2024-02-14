@@ -20,6 +20,12 @@ ORDER BY column_name(s);
 
 :::
 
+:::caution
+
+- Khi thực hiện **SELECT** các column thì các column này phải thuộc trong **GROUP BY**, còn lại ta phải sử dụng các hàm tích lũy như **MIN, MAX, AVG, COUNT, SUM,**... đối với các cột khác.
+
+:::
+
 ## Ví dụ 1
 
 - Ta có bảng **student** sau:

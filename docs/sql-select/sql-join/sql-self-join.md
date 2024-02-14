@@ -17,7 +17,7 @@ sidebar_position: 4
 SELECT columname(s)
 FROM table1 T1
 INNER JOIN table1 T2
-ON condition
+ON conditions
 ```
 
 :::note
