@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreactjs=self.webpackChunkreactjs||[]).push([[979],{7140:e=>{e.exports=JSON.parse('{"title":"MySQL SELECT","slug":"/category/mysql-select","permalink":"/SQL/category/mysql-select","navigation":{"previous":{"title":"MySQL Operators","permalink":"/SQL/sql-operators"},"next":{"title":"MySQL SELECT","permalink":"/SQL/sql-select/"}}}')}}]);
