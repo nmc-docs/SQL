@@ -19,7 +19,10 @@ slug: /
 
 | Data type | Description                                                                      |
 | --------- | -------------------------------------------------------------------------------- |
+| TINYINT   | Kiểu số nguyên, nhận giá trị từ -128 đến 127                                     |
 | INT       | Kiểu số nguyên, nhận giá trị từ -2147483648 đến 2147483647                       |
+| SMALLINT  | Kiểu số nguyên, nhận giá trị từ -32768 đến 32767                                 |
+| MEDIUMINT | Kiểu số nguyên, nhận giá trị từ -8388608 đến 8388607.                            |
 | BIGINT    | Kiểu số nguyên lớn, nhận giá trị từ -9223372036854775808 đến 9223372036854775807 |
 | FLOAT(p)  | Kiểu số thực, với `p` là số chữ số sau dấu phẩy                                  |
 
