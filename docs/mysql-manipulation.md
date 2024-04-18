@@ -168,3 +168,43 @@ mysql -u root -p --one-database [database_name] < [backup_file_dir]
 ```
 
 :::
+
+### Đổi mật khẩu cho root trong MySQL
+
+:::info
+
+- Câu lệnh để đổi mật khẩu với user "root" trong MySQL là:
+
+```bash
+mysqladmin -u root -p password [new_password]
+```
+
+- Sau đó nhập lại mật khẩu cũ để tiến hành thiết lập mật khẩu mới
+
+:::
+
+### Reset mật khẩu root trong MySQL
+
+- Tạo một file có tên **mysql-init.txt** có nội dung như sau, với `[new_passord]` là mật khẩu mới cần đặt (bao bọc bởi dấu nháy đơn):
+
+```plaintext
+ALTER USER 'root'@'localhost' IDENTIFIED BY [new_password];
+```
+
+- Stop service MySQL (chạy bằng quyền admin) bằng lệnh:
+
+```bash
+net stop mysql80
+```
+
+- Tiếp theo chạy lệnh sau (với quyền admin) để reset mật khẩu:
+
+```bash
+mysqld --defaults-file="C:\ProgramData\MySQL\MySQL Server 8.0\my.ini" --init-file="D:\mysql-init.txt" --console
+```
+
+- Sau đó, start lại service MySQL (chạy bằng quyền admin):
+
+```bash
+net start mysql80
+```
