@@ -169,7 +169,7 @@ mysql -u root -p --one-database [database_name] < [backup_file_dir]
 
 :::
 
-### Đổi mật khẩu cho root trong MySQL
+## Đổi mật khẩu cho root trong MySQL
 
 :::info
 
@@ -183,7 +183,7 @@ mysqladmin -u root -p password [new_password]
 
 :::
 
-### Reset mật khẩu root trong MySQL
+## Reset mật khẩu root trong MySQL
 
 - Tạo một file có tên **mysql-init.txt** có nội dung như sau, với `[new_passord]` là mật khẩu mới cần đặt (bao bọc bởi dấu nháy đơn):
 
