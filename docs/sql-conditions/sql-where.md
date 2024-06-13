@@ -28,10 +28,10 @@ WHERE condition;
 | Operator    | Description                                                                |
 | ----------- | -------------------------------------------------------------------------- |
 | =           | Bằng                                                                       |
-| >           | Lớn hơn                                                                    |
-| <           | Nhỏ hơn                                                                    |
-| >=          | Lớn hơn hoặc bằng                                                          |
-| <=          | Nhỏ hơn hoặc bằng                                                          |
+| \>          | Lớn hơn                                                                    |
+| \<          | Nhỏ hơn                                                                    |
+| \>=         | Lớn hơn hoặc bằng                                                          |
+| \<=         | Nhỏ hơn hoặc bằng                                                          |
 | !=          | Khác                                                                       |
 | BETWEEN     | Nằm giữa một khoảng được chỉ định.[Xem chi tiết](./sql-between)            |
 | LIKE        | Tìm kiếm theo pattern.[Xem chi tiết](./sql-like)                           |

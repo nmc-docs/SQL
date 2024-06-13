@@ -7,7 +7,7 @@ sidebar_position: 9
 ## ANY
 
 - Trong SQL, từ khóa "ANY" được sử dụng để so sánh một giá trị của một cột với một tập hợp các giá trị và trả về kết quả khi có **ÍT NHẤT** một giá trị trong tập hợp thỏa mãn điều kiện.
-- Từ khóa "ANY" thường được sử dụng cùng với các toán tử so sánh như "=", ">", "<", ">=", "<=", "IN" và "LIKE".
+- Từ khóa "ANY" thường được sử dụng cùng với các toán tử so sánh như "=", "\>", "\<", "\>=", "\<=", "IN" và "LIKE".
 - Toán tử "ANY" trả về TRUE nếu bất kỳ giá trị nào của subquery thỏa mãn điều kiện.
 - Cú pháp:
 
@@ -68,7 +68,7 @@ WHERE EXISTS (
 
 ## ALL
 
-- Trong SQL, từ khóa "ALL" được sử dụng để so sánh một giá trị với tất cả các giá trị trong một tập hợp. Nó thường được sử dụng cùng với các toán tử so sánh như "=", ">", "<", ">=", "<=", "IN" và "LIKE".
+- Trong SQL, từ khóa "ALL" được sử dụng để so sánh một giá trị với tất cả các giá trị trong một tập hợp. Nó thường được sử dụng cùng với các toán tử so sánh như "=", "\>", "\<", "\>=", "\<=", "IN" và "LIKE".
 - Khi sử dụng từ khóa "ALL", bạn so sánh một giá trị với tất cả các giá trị trong một danh sách hoặc kết quả của một câu truy vấn con.
 - Toán tử "ALL" trả về TRUE nếu tất cả giá trị của subquery thỏa mãn điều kiện.
 - Cú pháp:
